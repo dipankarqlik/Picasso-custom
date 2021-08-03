@@ -1,0 +1,28 @@
+{
+  "name": "hello-saas",
+  "version": "0.0.1",
+  "author": {
+    "name": "dipankarqlik",
+    "email": "dipankar.mazumdar@qlik.com"
+  },
+  "keywords": [
+    "qlik",
+    "nebula"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@nebula.js/sn-bar-chart": "^0.8.24",
+    "@nebula.js/stardust": "1.4.0",
+    "enigma.js": "^2.6.3",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "parcel": "^1.12.4",
+    "picasso-plugin-q": "^1.2.1",
+    "picasso.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
